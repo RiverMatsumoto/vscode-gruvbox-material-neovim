@@ -1,0 +1,44 @@
+{
+    "name":  "gruvbox-material-neovim",
+    "displayName":  "Gruvbox Material Neovim",
+    "description":  "A VS Code port of RiverMatsumoto\u0027s Zed Gruvbox Material Neovim theme.",
+    "version":  "0.1.0",
+    "publisher":  "river-matsumoto",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/RiverMatsumoto/vscode-gruvbox-material-neovim.git"
+                   },
+    "categories":  [
+                       "Themes"
+                   ],
+    "keywords":  [
+                     "gruvbox",
+                     "gruvbox material",
+                     "neovim",
+                     "theme",
+                     "dark theme"
+                 ],
+    "engines":  {
+                    "vscode":  "^1.90.0"
+                },
+    "contributes":  {
+                        "themes":  [
+                                       {
+                                           "label":  "Gruvbox Material Neovim Dark",
+                                           "uiTheme":  "vs-dark",
+                                           "path":  "./themes/gruvbox-material-neovim-dark-color-theme.json"
+                                       }
+                                   ]
+                    },
+    "author":  "RiverMatsumoto",
+    "license":  "MIT",
+    "homepage":  "https://github.com/RiverMatsumoto/vscode-gruvbox-material-neovim#readme",
+    "bugs":  {
+                 "url":  "https://github.com/RiverMatsumoto/vscode-gruvbox-material-neovim/issues"
+             },
+    "scripts":  {
+                    "package":  "npm exec --yes @vscode/vsce -- package",
+                    "publish:marketplace":  "npm exec --yes @vscode/vsce -- publish",
+                    "install:local":  "powershell -NoProfile -ExecutionPolicy Bypass -File ./install-vsix.ps1"
+                }
+}

@@ -1,0 +1,7 @@
+.git/**
+.vscode/**
+node_modules/**
+*.vsix
+install-vsix.*
+PUBLISHING.md
+.gitignore
