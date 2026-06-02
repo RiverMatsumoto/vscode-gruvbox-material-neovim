@@ -356,6 +356,35 @@
       }
     },
     {
+      "name": "C# documentation comment XML",
+      "scope": [
+        "meta.tag.cs",
+        "comment.block.documentation.cs entity.name.tag.cs",
+        "comment.block.documentation.cs entity.name.tag.localname.cs",
+        "comment.block.documentation.cs entity.name.tag.namespace.cs",
+        "comment.block.documentation.cs punctuation.definition.tag.cs",
+        "comment.block.documentation.cs punctuation.separator.colon.cs",
+        "comment.line.documentation.cs entity.name.tag.cs",
+        "comment.line.documentation.cs entity.name.tag.localname.cs",
+        "comment.line.documentation.cs entity.name.tag.namespace.cs",
+        "comment.line.documentation.cs punctuation.definition.tag.cs",
+        "comment.line.documentation.cs punctuation.separator.colon.cs",
+        "comment.documentation.attribute.name.cs",
+        "comment.documentation.attribute.quotes.cs",
+        "comment.documentation.attribute.value.cs",
+        "comment.documentation.cdata.cs",
+        "comment.documentation.comment.cs",
+        "comment.documentation.delimiter.cs",
+        "comment.documentation.entityReference.cs",
+        "comment.documentation.name.cs",
+        "comment.documentation.processingInstruction.cs",
+        "comment.documentation.cs"
+      ],
+      "settings": {
+        "foreground": "#d4be98bf"
+      }
+    },
+    {
       "name": "Predictive text",
       "scope": [
         "comment.predictive",
@@ -940,6 +969,16 @@
     "class.attribute:csharp": "#7daea3",
     "type.attribute": "#7daea3",
     "type.attribute:csharp": "#7daea3",
+    "xmlDocCommentAttributeName": "#d4be98bf",
+    "xmlDocCommentAttributeQuotes": "#d4be98bf",
+    "xmlDocCommentAttributeValue": "#d4be98bf",
+    "xmlDocCommentCDataSection": "#d4be98bf",
+    "xmlDocCommentComment": "#7c6f64",
+    "xmlDocCommentDelimiter": "#d4be98bf",
+    "xmlDocCommentEntityReference": "#d4be98bf",
+    "xmlDocCommentName": "#d4be98bf",
+    "xmlDocCommentProcessingInstruction": "#d4be98bf",
+    "xmlDocCommentText": "#d4be98bf",
     "*.attribute": {
       "foreground": "#7daea3"
     },
