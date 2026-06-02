@@ -4,6 +4,7 @@
     "description":  "A VS Code port of RiverMatsumoto\u0027s Zed Gruvbox Material Neovim theme.",
     "version":  "0.1.0",
     "publisher":  "river-matsumoto",
+    "icon":  "gruvbox-material-neovim.png",
     "repository":  {
                        "type":  "git",
                        "url":  "https://github.com/RiverMatsumoto/vscode-gruvbox-material-neovim.git"
