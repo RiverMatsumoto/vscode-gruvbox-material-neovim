@@ -2,7 +2,7 @@
     "name":  "gruvbox-material-neovim",
     "displayName":  "Gruvbox Material Neovim",
     "description":  "A VS Code port of f4z3r\u0027s Gruvbox Material Neovim theme.",
-    "version":  "0.1.0",
+    "version":  "0.1.1",
     "publisher":  "RiverMatsumoto",
     "icon":  "gruvbox-material-neovim.png",
     "repository":  {
