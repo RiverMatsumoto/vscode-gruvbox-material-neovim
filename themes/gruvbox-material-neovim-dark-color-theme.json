@@ -185,7 +185,7 @@
     "editorOverviewRuler.selectionHighlightForeground": "#7daea366",
     "editorOverviewRuler.warningForeground": "#d8a657",
     "editorOverviewRuler.wordHighlightForeground": "#7daea366",
-    "editorOverviewRuler.wordHighlightStrongForeground": "#45403d",
+    "editorOverviewRuler.wordHighlightStrongForeground": "#45403d66",
     "editorRuler.foreground": "#d4be981a",
     "editorUnnecessaryCode.opacity": "#00000080",
     "editorWarning.foreground": "#d8a657",
