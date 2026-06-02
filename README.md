@@ -1,9 +1,9 @@
 # Gruvbox Material Neovim for VS Code
 
+The color palette is based on [f4z3r's Gruvbox Material Neovim theme](https://github.com/f4z3r/gruvbox-material.nvim/tree/master), which was the palette source for the original Zed port.
+
 A VS Code color-theme port of RiverMatsumoto's Zed theme:
 <https://github.com/RiverMatsumoto/zed-gruvbox-material-neovim>.
-
-The color palette is based on [f4z3r's Gruvbox Material Neovim theme](https://github.com/f4z3r/gruvbox-material.nvim/tree/master), which was the palette source for the original Zed port.
 
 The palette follows the Zed version closely:
 
